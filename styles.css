@@ -1,0 +1,77 @@
+:root {
+    --morado-fondo: #352f5b;
+    --morado-oscuro: #262346;
+    --morado-claro: #58529d;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Reddit Sans", sans-serif;
+}
+
+body {
+    background-color: var(--morado-fondo);
+    color: white;
+}
+
+.seccion-lista {
+    text-align: center;
+    height: 100vh;
+}
+
+.seccion-lista h1 {
+    font-size: 4.5rem;
+    padding: 3rem;
+    margin-top: 2rem;
+}
+
+#search-bar, #add-todo {
+    padding: 1.5rem 2rem;
+    width: 25%;
+    background-color: var(--morado-oscuro);
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.line {
+    list-style: none;
+    display: flex;
+    font-size: 2rem;
+    background-color: var(--morado-claro);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    width: 25%;
+    margin-bottom: 1rem;
+    transition: background-color 0.4s ease;
+}
+
+.line:hover {
+    background-color: var(--morado-oscuro);
+}
+
+.line svg {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.añadir-pendiente {
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
