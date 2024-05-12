@@ -1,56 +1,56 @@
-Proyecto Lista de Tareas (To-Do List)
-=====================================
+To-Do List Project
+==================
 
-Descripción
+Description
 -----------
-Este proyecto es una aplicación de lista de tareas simple diseñada para ayudar a los usuarios a organizar sus actividades diarias. Permite a los usuarios añadir, eliminar y buscar tareas pendientes de manera eficiente.
+This project is a simple to-do list application designed to help users organize their daily activities efficiently. It allows users to add, delete, and search for tasks with ease.
 
-Características
----------------
-- Añadir Tareas: Los usuarios pueden añadir tareas a su lista escribiendo en un campo de texto y presionando un botón o tecla enter. 📝
-- Eliminar Tareas: Cada tarea en la lista tiene un icono de eliminar que, al ser clickeado, removerá la tarea de la lista. 🗑️
-- Buscar Tareas: Un campo de búsqueda permite a los usuarios filtrar tareas basándose en el texto ingresado. 🔍
+Features
+--------
+- Add Tasks: Users can add tasks to their list by typing in a text field and pressing a button or the enter key. 📝
+- Delete Tasks: Each task in the list has a delete icon that, when clicked, will remove the task from the list. 🗑️
+- Search Tasks: A search field allows users to filter tasks based on entered text. 🔍
 
-Tecnologías Utilizadas
-----------------------
-- HTML5: Estructura de la página web.
-- CSS3: Estilos visuales para mejorar la experiencia del usuario.
-- JavaScript: Funcionalidad interactiva, manejo de eventos y manipulación del DOM.
+Technologies Used
+-----------------
+- HTML5: Web page structure.
+- CSS3: Visual styles to enhance user experience.
+- JavaScript: Interactive functionality, event handling, and DOM manipulation.
 
-Estructura del Proyecto
------------------------
+Project Structure
+-----------------
 /
-|-- index.html     # Página principal de la aplicación web
-|-- styles.css     # Hoja de estilos CSS para estilos visuales
-|-- scripts.js     # Scripts de JavaScript para la funcionalidad interactiva
-|-- README.txt     # Documentación del proyecto
+|-- index.html     # Main webpage of the application
+|-- styles.css     # CSS stylesheet for visual styles
+|-- scripts.js     # JavaScript scripts for interactive functionality
+|-- README.txt     # Project documentation
 
-Instalación
------------
-Para poner en marcha el proyecto en tu máquina local, sigue estos pasos:
-1. Clona el repositorio en tu máquina local usando:
-   git clone https://github.com/tu-usuario/tu-repositorio.git
-
-2. Navega al directorio del proyecto:
-   cd tu-repositorio
-
-3. Abre el archivo index.html en tu navegador para ver la aplicación en funcionamiento.
-
-Contribución
+Installation
 ------------
-Las contribuciones son lo que hace que la comunidad de código abierto sea un lugar increíble para aprender, inspirar y crear. Cualquier contribución que hagas será muy apreciada. 👍
+To get this project up and running on your local machine, follow these steps:
+1. Clone the repository to your local machine using:
+   git clone https://github.com/your-username/your-repository.git
 
-1. Haz Fork del proyecto.
-2. Crea tu rama de características (git checkout -b feature/AmazingFeature).
-3. Haz commit de tus cambios (git commit -m 'Add some AmazingFeature').
-4. Push a la rama (git push origin feature/AmazingFeature).
-5. Abre una Pull Request.
+2. Navigate to the project directory:
+   cd your-repository
 
-Licencia
---------
-Distribuido bajo la licencia MIT. Ver LICENSE para más información.
+3. Open the index.html file in your browser to see the application in action.
 
-Contacto
---------
+Contribution
+------------
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make will be greatly appreciated. 👍
+
+1. Fork the project.
+2. Create your feature branch (git checkout -b feature/AmazingFeature).
+3. Commit your changes (git commit -m 'Add some AmazingFeature').
+4. Push to the branch (git push origin feature/AmazingFeature).
+5. Open a Pull Request.
+
+License
+-------
+Distributed under the MIT License. See LICENSE for more information.
+
+Contact
+-------
 Leonardo Paniagua - github.drift229@passmail.net
-URL del Proyecto: https://github.com/leojrpan/todolist
+Project URL: https://github.com/leojrpan/todolist
