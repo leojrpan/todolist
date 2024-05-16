@@ -65,11 +65,6 @@ ul {
     background-color: var(--morado-oscuro);
 }
 
-.line svg {
-    margin-left: auto;
-    cursor: pointer;
-}
-
 .añadir-pendiente {
     display: block;
     font-size: 2rem;
